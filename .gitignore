@@ -1,0 +1,46 @@
+# Node modules
+node_modules
+
+# Build output
+build
+dist
+.next
+out
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code folders
+.vscode
+.history
+
+# Temporary files
+*.cache
+.cache
+temp
+tmp
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Coverage for tests
+coverage
+
+# Local environment
+*.local
