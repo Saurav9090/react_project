@@ -74,7 +74,7 @@ const services = [
     title: "Full Wedding Photography",
     description:
       "Create magical memories of your destination wedding in the tropical paradise of Andaman Islands.",
-    image: "/images/service section/wedding photography.jpg",
+    image: "/images/service section/wedding photography.JPG",
     features: [
       "Pre-Wedding Shoot",
       "Ceremony Coverage",

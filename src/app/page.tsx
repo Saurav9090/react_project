@@ -34,16 +34,16 @@ export default function HomePage() {
               {Array.from({ length: 12 }, (_, index) => {
                 const images = [
                   "images/RIT_8557.jpg",
-                  "images/IMG_2458.jpg",
-                  "images/IMG_0581.jpg",
+                  "images/IMG_2458.JPG",
+                  "images/IMG_0581.JPG",
                   "images/IMG_4836.jpg",
-                  "images/IMG_2617.jpg",
-                  "images/IMG_5712.jpg",
+                  "images/IMG_2617.JPG",
+                  "images/IMG_5712.JPG",
                   "images/RIT_7534.jpg",
-                  "images/IMG_2484.jpg",
-                  "images/IMG_5693.jpg",
+                  "images/IMG_2484.JPG",
+                  "images/IMG_5693.JPG",
                   "images/RIT_8469.jpg",
-                  "images/IMG_5760.jpg",
+                  "images/IMG_5760.JPG",
                   "images/RIT_8328.jpg"
                 ];
 
@@ -123,7 +123,7 @@ export default function HomePage() {
                 {
                   title: "Neil Island",
                   description: "A tranquil escape with natural bridges, lagoons, and untouched beaches. Perfect for relaxation and wildlife spotting.",
-                  image: "/images/island pics/neil.webp",
+                  image: "/images/island pics/Neil.webp",
                   stats: "Tranquil Retreat"
                 },
                 {
