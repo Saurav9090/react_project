@@ -420,7 +420,11 @@ export default function HomePage() {
             </div>
 
             <div className="max-w-2xl mx-auto">
-              <form className="bg-white rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 border border-gray-100">
+              <form className="bg-white rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 border border-gray-100" action="https://formsubmit.co/andamanclick.com@gmail.com" method="POST">
+                
+        <input type="hidden" name="_next" value="https://react-project-nu-lake.vercel.app/"></input>
+        <input type="hidden" name="_captcha" value="false"></input>
+        <input type="hidden" name="_template" value="table"></input>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   <div className="relative">
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2 flex items-center">
