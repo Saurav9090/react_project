@@ -425,6 +425,7 @@ export default function HomePage() {
         <input type="hidden" name="_next" value="https://react-project-nu-lake.vercel.app/"></input>
         <input type="hidden" name="_captcha" value="false"></input>
         <input type="hidden" name="_template" value="table"></input>
+        <input type="hidden" name="_subject" value="New Contact Form Submission!" />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   <div className="relative">
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2 flex items-center">
