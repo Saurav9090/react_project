@@ -513,7 +513,7 @@ export default function HomePage() {
                     placeholder="Tell us more about your inquiry..."
                   ></textarea>
                 </div>
-                <input type="hidden" name="_next" value="https://react-project-nu-lake.vercel.app/"></input>
+                <input type="hidden" name="_next" value="https://www.andamanclick.com/"></input>
                 <button
                   type="submit"
                   className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-4 px-6 rounded-lg font-semibold hover:from-blue-700 hover:to-cyan-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center"

@@ -104,7 +104,7 @@ const services = [
 
 export default function ServicesOverview() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50" id="services">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           {/* Animated gradient heading */}
