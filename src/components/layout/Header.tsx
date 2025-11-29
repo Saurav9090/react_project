@@ -75,15 +75,15 @@ export function Header() {
   WhatsApp
 </a>
               <div className="flex space-x-3">
-                <a href="#" className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+                {/* <a href="#" className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
                   <span className="text-xs font-bold">f</span>
-                </a>
-                <a href="#" className="w-6 h-6 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors">
+                </a> */}
+                <a href="https://www.instagram.com/andamanclick?igsh=dmpnbW92d3B3c3oz" target="_blank" rel="noopener noreferrer" className="w-6 h-6 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors">
                   <span className="text-xs font-bold">ig</span>
                 </a>
-                <a href="#" className="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition-colors">
+                {/* <a href="#" className="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition-colors">
                   <span className="text-xs font-bold">yt</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

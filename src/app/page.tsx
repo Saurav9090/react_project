@@ -305,7 +305,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="text-xl font-semibold mb-2">Natural Adventures</h3>
+                  <h3 className="text-xl font-semibold mb-2">Equipment </h3>
                   <p className="text-gray-200 text-sm">Explore the Adventures through our professional equipment</p>
                 </div>
               </div>
@@ -499,18 +499,37 @@ export default function HomePage() {
                   </select>
                 </div>
                 <div className="mb-6 relative">
+  <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-2 flex items-center">
+    <svg className="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M6 2a1 1 0 112 0v1h4V2a1 1 0 112 0v1h1a2 2 0 012 2v1H3V5a2 2 0 012-2h1V2z" />
+      <path d="M3 9h14v7a2 2 0 01-2 2H5a2 2 0 01-2-2V9zm3 3a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2zm4 0a1 1 0 100 2 1 1 0 000-2z" />
+    </svg>
+     Date of Shoot *
+  </label>
+
+  <input
+    type="date"
+    id="date"
+    name="date"
+    required
+    className="w-full px-4 py-3 pl-12 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 bg-gray-50 hover:bg-white"
+    placeholder="Select a date"
+  />
+</div>
+
+                <div className="mb-6 relative">
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2 flex items-center">
                     <svg className="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clipRule="evenodd" />
                     </svg>
-                    Message
+                    Requirment
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={4}
                     className="w-full px-4 py-3 pl-12 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 bg-gray-50 hover:bg-white resize-none"
-                    placeholder="Tell us more about your inquiry..."
+                    placeholder="Ready to book? Let us know the type of shoot and your preferences!..."
                   ></textarea>
                 </div>
                 <input type="hidden" name="_next" value="https://www.andamanclick.com/"></input>

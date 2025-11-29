@@ -77,21 +77,21 @@ export function Footer() {
             
             {/* Social Media Links */}
             <div className="flex space-x-4">
-              <a 
+              {/* <a 
                 href="#" 
                 className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors duration-300"
                 aria-label="Facebook"
               >
                 <span className="text-sm font-bold">f</span>
-              </a>
+              </a> */}
               <a 
-                href="#" 
+                href="https://www.instagram.com/andamanclick?igsh=dmpnbW92d3B3c3oz" target="_blank" rel="noopener noreferrer" 
                 className="w-10 h-10 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center hover:from-pink-600 hover:to-purple-700 transition-all duration-300"
                 aria-label="Instagram"
               >
                 <span className="text-xs font-bold">ig</span>
               </a>
-              <a 
+              {/* <a 
                 href="#" 
                 className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition-colors duration-300"
                 aria-label="YouTube"
@@ -104,7 +104,7 @@ export function Footer() {
                 aria-label="Twitter"
               >
                 <span className="text-xs font-bold">tw</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
